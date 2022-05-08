@@ -101,7 +101,9 @@ div {
 hr {
     width: 50%;
    margin: auto;
-
+   background-color: #b80721;
+   height: 1px;
+   
 }
 
     
