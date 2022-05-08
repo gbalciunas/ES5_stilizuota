@@ -38,6 +38,8 @@ body {
 }
 
 button {
+
+   
     margin: 25px;
    padding: 5px;
   
@@ -92,7 +94,15 @@ color: #b80721;
 text-shadow: 2px 2px 2px rgb(141, 138, 138);
 }
 
+div {
+    text-decoration: none;
+    border: none;
+}
+hr {
+    width: 50%;
+   margin: auto;
 
+}
 
     
 
