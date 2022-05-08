@@ -1,0 +1,108 @@
+/*
+
+Stilizuoti Quiz projektą: 
+1. Stilizuoti klausimus,pasirinkimus ir progresą. 
+2. Pridėti animacijų setTimeout(). 
+3. Stilizuoti pabaigos rezultatų puslapį.
+4. Įkelkite į github ir paviešinkite. 
+5. Įkelkite paviešintą nuorodą į Teams.
+
+*/
+html {
+    padding-top: 300px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    text-align: center;
+    
+    background-image: url("./Images/img2.jpg"), url("./Images/img41.jpg");
+    background-position: top, bottom;
+    background-repeat: no-repeat, repeat;
+   
+    height: 290px;
+    
+    
+    
+    background-size: cover;
+   
+ 
+     
+
+}
+
+button {
+    margin: 25px;
+   padding: 5px;
+  
+   font-weight: bold;
+   background: #ff827d;
+   cursor: pointer;
+   border-radius: 8px;
+   width: 150px;
+   font-size: large;
+   box-shadow: 2px 2px 2px rgb(141, 138, 138);
+   
+}
+button:hover {
+    background: #6c9f29;
+
+    color: white;
+}
+
+footer {
+margin: auto;
+   
+   width: 50%;
+    text-align: center;
+    border: none;
+   /* font-size: 2em;  */
+  
+    
+    
+}
+
+
+
+.quiz button {
+    padding: 15px;
+
+}
+
+p {
+font-size: 2em;
+border: none;
+text-shadow: 2px 2px 2px rgb(141, 138, 138);;
+
+}
+h2 {
+    margin: 15px;
+    text-shadow: 2px 2px 2px rgb(141, 138, 138);
+}
+
+h1 {
+margin: 15px;
+color: #b80721;
+text-shadow: 2px 2px 2px rgb(141, 138, 138);
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
