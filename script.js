@@ -116,7 +116,7 @@ function populate(){
     buttons.forEach((x, i) => {
         x.innerText = questions[questionNumber].choices[i]
 
-  
+ 
       
 
     })
@@ -134,17 +134,9 @@ function populate(){
     document.querySelector('h1').style.fontSize = '3em';
     document.querySelector('h2').style.textAlign = 'center';
    
+   
     
 }) 
 
 
 
-
-
-
-
-var btn = document.getElementById("startQuiz");
-btn.addEventListener("click", function onClick() {
- btn.style.backgroun = "blue"
-
-})
